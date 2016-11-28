@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4972D2D81DEBD7220031B6A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4972D2D71DEBD7220031B6A7 /* main.m */; };
+		4972D2DB1DEBD7220031B6A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4972D2DA1DEBD7220031B6A7 /* AppDelegate.m */; };
+		4972D2DD1DEBD7220031B6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4972D2DC1DEBD7220031B6A7 /* Assets.xcassets */; };
+		4972D2E01DEBD7220031B6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4972D2DE1DEBD7220031B6A7 /* LaunchScreen.storyboard */; };
+		4972D2EB1DEBD7220031B6A7 /* JZNumberKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4972D2EA1DEBD7220031B6A7 /* JZNumberKeyboardTests.m */; };
+		4972D2F61DEBD7220031B6A7 /* JZNumberKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4972D2F51DEBD7220031B6A7 /* JZNumberKeyboardUITests.m */; };
+		4972D30A1DEBD8A20031B6A7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4972D3091DEBD8A20031B6A7 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49AAEAD51DEC1C3B004C9E64 /* JZNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AAEAD41DEC1C3B004C9E64 /* JZNumberKeyboard.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4972D2E71DEBD7220031B6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4972D2CB1DEBD7220031B6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4972D2D21DEBD7220031B6A7;
+			remoteInfo = JZNumberKeyboard;
+		};
+		4972D2F21DEBD7220031B6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4972D2CB1DEBD7220031B6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4972D2D21DEBD7220031B6A7;
+			remoteInfo = JZNumberKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4972D2D31DEBD7220031B6A7 /* JZNumberKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZNumberKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4972D2D71DEBD7220031B6A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4972D2D91DEBD7220031B6A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4972D2DA1DEBD7220031B6A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4972D2DC1DEBD7220031B6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4972D2DF1DEBD7220031B6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4972D2E11DEBD7220031B6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4972D2E61DEBD7220031B6A7 /* JZNumberKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZNumberKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4972D2EA1DEBD7220031B6A7 /* JZNumberKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZNumberKeyboardTests.m; sourceTree = "<group>"; };
+		4972D2EC1DEBD7220031B6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4972D2F11DEBD7220031B6A7 /* JZNumberKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZNumberKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4972D2F51DEBD7220031B6A7 /* JZNumberKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZNumberKeyboardUITests.m; sourceTree = "<group>"; };
+		4972D2F71DEBD7220031B6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4972D3081DEBD8A20031B6A7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4972D3091DEBD8A20031B6A7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49AAEAD31DEC1C3B004C9E64 /* JZNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNumberKeyboard.h; sourceTree = "<group>"; };
+		49AAEAD41DEC1C3B004C9E64 /* JZNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNumberKeyboard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4972D2D01DEBD7220031B6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4972D2E31DEBD7220031B6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4972D2EE1DEBD7220031B6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4972D2CA1DEBD7220031B6A7 = {
+			isa = PBXGroup;
+			children = (
+				4972D2D51DEBD7220031B6A7 /* JZNumberKeyboard */,
+				4972D2E91DEBD7220031B6A7 /* JZNumberKeyboardTests */,
+				4972D2F41DEBD7220031B6A7 /* JZNumberKeyboardUITests */,
+				4972D2D41DEBD7220031B6A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4972D2D41DEBD7220031B6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4972D2D31DEBD7220031B6A7 /* JZNumberKeyboard.app */,
+				4972D2E61DEBD7220031B6A7 /* JZNumberKeyboardTests.xctest */,
+				4972D2F11DEBD7220031B6A7 /* JZNumberKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4972D2D51DEBD7220031B6A7 /* JZNumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				49AAEAD21DEC1C3B004C9E64 /* JZNumberKeyboard */,
+				4972D3041DEBD8690031B6A7 /* VC */,
+				4972D2D61DEBD7220031B6A7 /* Supporting Files */,
+			);
+			path = JZNumberKeyboard;
+			sourceTree = "<group>";
+		};
+		4972D2D61DEBD7220031B6A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4972D2D91DEBD7220031B6A7 /* AppDelegate.h */,
+				4972D2DA1DEBD7220031B6A7 /* AppDelegate.m */,
+				4972D2DC1DEBD7220031B6A7 /* Assets.xcassets */,
+				4972D2DE1DEBD7220031B6A7 /* LaunchScreen.storyboard */,
+				4972D2E11DEBD7220031B6A7 /* Info.plist */,
+				4972D2D71DEBD7220031B6A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4972D2E91DEBD7220031B6A7 /* JZNumberKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				4972D2EA1DEBD7220031B6A7 /* JZNumberKeyboardTests.m */,
+				4972D2EC1DEBD7220031B6A7 /* Info.plist */,
+			);
+			path = JZNumberKeyboardTests;
+			sourceTree = "<group>";
+		};
+		4972D2F41DEBD7220031B6A7 /* JZNumberKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4972D2F51DEBD7220031B6A7 /* JZNumberKeyboardUITests.m */,
+				4972D2F71DEBD7220031B6A7 /* Info.plist */,
+			);
+			path = JZNumberKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		4972D3041DEBD8690031B6A7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4972D3081DEBD8A20031B6A7 /* MainViewController.h */,
+				4972D3091DEBD8A20031B6A7 /* MainViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		49AAEAD21DEC1C3B004C9E64 /* JZNumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				49AAEAD31DEC1C3B004C9E64 /* JZNumberKeyboard.h */,
+				49AAEAD41DEC1C3B004C9E64 /* JZNumberKeyboard.m */,
+			);
+			path = JZNumberKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4972D2D21DEBD7220031B6A7 /* JZNumberKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4972D2FA1DEBD7220031B6A7 /* Build configuration list for PBXNativeTarget "JZNumberKeyboard" */;
+			buildPhases = (
+				4972D2CF1DEBD7220031B6A7 /* Sources */,
+				4972D2D01DEBD7220031B6A7 /* Frameworks */,
+				4972D2D11DEBD7220031B6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZNumberKeyboard;
+			productName = JZNumberKeyboard;
+			productReference = 4972D2D31DEBD7220031B6A7 /* JZNumberKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4972D2E51DEBD7220031B6A7 /* JZNumberKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4972D2FD1DEBD7220031B6A7 /* Build configuration list for PBXNativeTarget "JZNumberKeyboardTests" */;
+			buildPhases = (
+				4972D2E21DEBD7220031B6A7 /* Sources */,
+				4972D2E31DEBD7220031B6A7 /* Frameworks */,
+				4972D2E41DEBD7220031B6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4972D2E81DEBD7220031B6A7 /* PBXTargetDependency */,
+			);
+			name = JZNumberKeyboardTests;
+			productName = JZNumberKeyboardTests;
+			productReference = 4972D2E61DEBD7220031B6A7 /* JZNumberKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4972D2F01DEBD7220031B6A7 /* JZNumberKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4972D3001DEBD7220031B6A7 /* Build configuration list for PBXNativeTarget "JZNumberKeyboardUITests" */;
+			buildPhases = (
+				4972D2ED1DEBD7220031B6A7 /* Sources */,
+				4972D2EE1DEBD7220031B6A7 /* Frameworks */,
+				4972D2EF1DEBD7220031B6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4972D2F31DEBD7220031B6A7 /* PBXTargetDependency */,
+			);
+			name = JZNumberKeyboardUITests;
+			productName = JZNumberKeyboardUITests;
+			productReference = 4972D2F11DEBD7220031B6A7 /* JZNumberKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4972D2CB1DEBD7220031B6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = RoyalMjz;
+				TargetAttributes = {
+					4972D2D21DEBD7220031B6A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4972D2E51DEBD7220031B6A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4972D2D21DEBD7220031B6A7;
+					};
+					4972D2F01DEBD7220031B6A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4972D2D21DEBD7220031B6A7;
+					};
+				};
+			};
+			buildConfigurationList = 4972D2CE1DEBD7220031B6A7 /* Build configuration list for PBXProject "JZNumberKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4972D2CA1DEBD7220031B6A7;
+			productRefGroup = 4972D2D41DEBD7220031B6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4972D2D21DEBD7220031B6A7 /* JZNumberKeyboard */,
+				4972D2E51DEBD7220031B6A7 /* JZNumberKeyboardTests */,
+				4972D2F01DEBD7220031B6A7 /* JZNumberKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4972D2D11DEBD7220031B6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4972D2DD1DEBD7220031B6A7 /* Assets.xcassets in Resources */,
+				4972D2E01DEBD7220031B6A7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4972D2E41DEBD7220031B6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4972D2EF1DEBD7220031B6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4972D2CF1DEBD7220031B6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4972D2DB1DEBD7220031B6A7 /* AppDelegate.m in Sources */,
+				4972D2D81DEBD7220031B6A7 /* main.m in Sources */,
+				4972D30A1DEBD8A20031B6A7 /* MainViewController.m in Sources */,
+				49AAEAD51DEC1C3B004C9E64 /* JZNumberKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4972D2E21DEBD7220031B6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4972D2EB1DEBD7220031B6A7 /* JZNumberKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4972D2ED1DEBD7220031B6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4972D2F61DEBD7220031B6A7 /* JZNumberKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4972D2E81DEBD7220031B6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4972D2D21DEBD7220031B6A7 /* JZNumberKeyboard */;
+			targetProxy = 4972D2E71DEBD7220031B6A7 /* PBXContainerItemProxy */;
+		};
+		4972D2F31DEBD7220031B6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4972D2D21DEBD7220031B6A7 /* JZNumberKeyboard */;
+			targetProxy = 4972D2F21DEBD7220031B6A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4972D2DE1DEBD7220031B6A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4972D2DF1DEBD7220031B6A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4972D2F81DEBD7220031B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4972D2F91DEBD7220031B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4972D2FB1DEBD7220031B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JZNumberKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyalMjz.JZNumberKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4972D2FC1DEBD7220031B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JZNumberKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyalMjz.JZNumberKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4972D2FE1DEBD7220031B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JZNumberKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyalMjz.JZNumberKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZNumberKeyboard.app/JZNumberKeyboard";
+			};
+			name = Debug;
+		};
+		4972D2FF1DEBD7220031B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JZNumberKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyalMjz.JZNumberKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZNumberKeyboard.app/JZNumberKeyboard";
+			};
+			name = Release;
+		};
+		4972D3011DEBD7220031B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JZNumberKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyalMjz.JZNumberKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JZNumberKeyboard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4972D3021DEBD7220031B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JZNumberKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyalMjz.JZNumberKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JZNumberKeyboard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4972D2CE1DEBD7220031B6A7 /* Build configuration list for PBXProject "JZNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4972D2F81DEBD7220031B6A7 /* Debug */,
+				4972D2F91DEBD7220031B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4972D2FA1DEBD7220031B6A7 /* Build configuration list for PBXNativeTarget "JZNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4972D2FB1DEBD7220031B6A7 /* Debug */,
+				4972D2FC1DEBD7220031B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4972D2FD1DEBD7220031B6A7 /* Build configuration list for PBXNativeTarget "JZNumberKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4972D2FE1DEBD7220031B6A7 /* Debug */,
+				4972D2FF1DEBD7220031B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4972D3001DEBD7220031B6A7 /* Build configuration list for PBXNativeTarget "JZNumberKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4972D3011DEBD7220031B6A7 /* Debug */,
+				4972D3021DEBD7220031B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4972D2CB1DEBD7220031B6A7 /* Project object */;
+}
