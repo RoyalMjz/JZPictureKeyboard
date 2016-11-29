@@ -9,7 +9,8 @@
 
 # JZNumberKeyboard
 
-[![platform](https://img.shields.io/badge/platform-iOS-blue.svg?style=flat)][myGithub]
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](myGithub)&nbsp;
+[![platform](https://img.shields.io/badge/platform-ios-lightgray.svg?style=flat)][myGithub]&nbsp;
 
 
 ## Introduction
