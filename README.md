@@ -24,11 +24,11 @@ JZPictureKeyboard is a custom keyboard with a background image.
 ## Usage
 
 
-0. 将JZPictureKeyboard文件夹导入到项目中
+1. 将JZPictureKeyboard文件夹导入到项目中
 
-1. 在要用到的视图引入头文件`#import "JZPictureKeyboard.h"`
+2. 在要用到的视图引入头文件`#import "JZPictureKeyboard.h"`
 
-2. 在viewDidLoad中
+3. 在viewDidLoad中
 
 ```
 //初始化数字键盘
