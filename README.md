@@ -1,13 +1,14 @@
 ```
-     _ _____  _            _             _  __         _                      _ 
-  _ | |_  / \| |_  _ _ __ | |__  ___ _ _| |/ /___ _  _| |__  ___  __ _ _ _ __| |
- | || |/ /| .` | || | '  \| '_ \/ -_) '_| ' </ -_) || | '_ \/ _ \/ _` | '_/ _` |
-  \__//___|_|\_|\_,_|_|_|_|_.__/\___|_| |_|\_\___|\_, |_.__/\___/\__,_|_| \__,_|
-                                                  |__/                          
+      _ _________  _      _                  _  __          _                         _ 
+     | |__  /  _ \(_) ___| |_ _   _ _ __ ___| |/ /___ _   _| |__   ___   __ _ _ __ __| |
+  _  | | / /| |_) | |/ __| __| | | | '__/ _ \ ' // _ \ | | | '_ \ / _ \ / _` | '__/ _` |
+ | |_| |/ /_|  __/| | (__| |_| |_| | | |  __/ . \  __/ |_| | |_) | (_) | (_| | | | (_| |
+  \___//____|_|   |_|\___|\__|\__,_|_|  \___|_|\_\___|\__, |_.__/ \___/ \__,_|_|  \__,_|
+                                                      |___/                             
 ```
 
 
-# JZNumberKeyboard
+# JZPictureKeyboard
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](myGithub)&nbsp;
 [![platform](https://img.shields.io/badge/platform-ios-lightgray.svg?style=flat)][myGithub]&nbsp;
@@ -16,22 +17,22 @@
 ## Introduction
 
 
-JZNumberKeyboard is a custom numeric keypad.
+JZPictureKeyboard is a custom keyboard with a background image.
 
-![](https://raw.githubusercontent.com/RoyalMjz/JZNumberKeyboard/master/Screenshots/Screenshots.png)
+![](https://raw.githubusercontent.com/RoyalMjz/JZPictureKeyboard/master/Screenshots/Screenshots.png)
 
 ## Usage
 
 
-0. 将JZNumberKeyboard文件夹导入到项目中
+0. 将JZPictureKeyboard文件夹导入到项目中
 
-1. 在要用到的视图引入头文件`#import "JZNumberKeyboard.h"`
+1. 在要用到的视图引入头文件`#import "JZPictureKeyboard.h"`
 
 2. 在viewDidLoad中
 
 ```
 //初始化数字键盘
-JZNumberKeyboard *keyBoard = [[JZNumberKeyboard alloc] initWithTitleColor:nil backGroundImage:[UIImage imageNamed:@"keyboardImage"]];
+JZPictureKeyboard *keyBoard = [[JZPictureKeyboard alloc] initWithTitleColor:nil backGroundImage:[UIImage imageNamed:@"keyboardImage"]];
 //输入视图textfield&textView
 [keyBoard setInputView:textField];
 //添加到主视图中
@@ -42,8 +43,8 @@ JZNumberKeyboard *keyBoard = [[JZNumberKeyboard alloc] initWithTitleColor:nil ba
 
 ## LICENSE
 
-JZNumberKeyBoard is licensed under the MIT Open Source license. For more information, please see the [LICENSE](https://raw.githubusercontent.com/RoyalMjz/JZNumberKeyboard/master/LICENSE) file in this repository.
+JZPictureKeyboard is licensed under the MIT Open Source license. For more information, please see the [LICENSE](https://raw.githubusercontent.com/RoyalMjz/JZPictureKeyboard/master/LICENSE) file in this repository.
 
 
 
-[myGithub]: https://github.com/RoyalMjz/JZNumberKeyboard
+[myGithub]: https://github.com/RoyalMjz/JZPictureKeyboard
