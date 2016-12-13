@@ -46,5 +46,4 @@ JZPictureKeyboard *keyBoard = [[JZPictureKeyboard alloc] initWithTitleColor:nil 
 JZPictureKeyboard is licensed under the MIT Open Source license. For more information, please see the [LICENSE](https://raw.githubusercontent.com/RoyalMjz/JZPictureKeyboard/master/LICENSE) file in this repository.
 
 
-
 [myGithub]: https://github.com/RoyalMjz/JZPictureKeyboard
